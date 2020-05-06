@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".controller.GameActivity"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:id="@+id/activity_game_question"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:layout_gravity="top"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:gravity="center"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:text="Question ?"/>
+
+    <Button
+        android:id="@+id/activity_game_choix1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:textStyle="bold"
+        android:background="#9385A6"
+        android:fontFamily="sans-serif-black"
+        android:text="choix1"/>
+
+    <Button
+        android:id="@+id/activity_game_choix2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:textStyle="bold"
+        android:background="#9385A6"
+        android:fontFamily="sans-serif-black"
+        android:text="choix2"/>
+
+    <Button
+        android:id="@+id/activity_game_choix3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:textStyle="bold"
+        android:background="#9385A6"
+        android:fontFamily="sans-serif-black"
+        android:text="choix3"/>
+
+    <Button
+        android:id="@+id/activity_game_choix4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:textStyle="bold"
+        android:background="#9385A6"
+        android:fontFamily="sans-serif-black"
+        android:text="choix4"/>
+
+</LinearLayout>

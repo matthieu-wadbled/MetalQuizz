@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".controller.MainActivity"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/activity_main_welcome_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="5dp"
+        android:padding="5dp"
+        android:gravity="left"
+        android:textStyle="bold"
+        android:text="Bienvenue dans MetalQuizz !"/>
+
+    <EditText
+        android:id="@+id/activity_main_name_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:hint="Entre ton blaze ici !!!"/>
+
+    <Button
+        android:id="@+id/activity_main_play_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center_horizontal"
+        android:padding="20dp"
+        android:background="#9385A6"
+        android:fontFamily="sans-serif-black"
+        android:text="let's Rock"/>
+
+</LinearLayout>
